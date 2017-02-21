@@ -1,0 +1,146 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:#f6f6f6;
+    color:#555;
+    font-family:'Roboto',sans-serif;
+    font-size:1.2em; }
+body div:first-child{ 
+    margin:0 10% 0 10%;
+    border-left:1px solid #e5e5e5;
+    border-right:1px solid #e5e5e5;
+    background-color:#FFF;
+    align-items:stretch;
+    height:100vh;
+    display:block;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:stretch;
+}
+header{
+    background-color:#EFF0F8;
+    height:10vh;
+    position:relative;
+}
+header h1{
+    width:148px;
+    height:10vh;
+    margin:0 0 0 20px;
+    padding:0;
+    display: block;
+    /*
+    background-image:url(../../images/logo-canfield-site.png);
+    text-indent:-9999px;
+    */
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain;
+    position:absolute;
+    left:0;
+}
+footer{
+    background-color:#EFF0F8;
+    height:15vh;
+    text-align:center;
+    display:block;
+}
+section{
+    background-color:#FFF;
+    flex-grow: 1;
+    padding: 20px;
+}
+section h2{
+    margin:10px;
+    font-size:1.4em;
+    padding:0;
+    text-align: center;
+}
+section p{
+    text-align: center;
+    font-size: .85em;
+}
+section > ul{
+    border:1px solid #CCC;
+    border-radius: 3px;
+}
+section ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section > ul{
+    padding: 5px;
+}
+section > ul > li:not(:first-child){
+    padding: 10px 0 10px 0;
+}
+section ul li:first-child ul li{
+    font-weight: bold;
+}
+section ul li ul{
+    display: flex;
+    flex-wrap: wrap; }
+section ul li ul li{
+    flex-grow: 1;
+    align-items: stretch;
+    padding: 0;
+    text-align: center;
+    white-space: normal;
+}
+section ul li ul li:nth-child(1){
+    width: 10%;
+}
+section ul li ul li:nth-child(2){
+    width: 34%;
+    text-align: left;
+}
+section ul li ul li:nth-child(3){
+    width: 10%;
+}
+section ul li ul li:nth-child(4){
+    width: 30%;
+}
+section ul li ul li:nth-child(5){
+    width: 10%;
+}
+h3{
+    text-align: center;
+    color: #E1E1E1;
+}
+.row{
+    background-color:#DCDCDC;
+}
+button{
+    background-color: #00933b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .8em;
+    color: #FFF;
+}
+footer{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    body div:first-child{
+        margin: auto;
+    }
+    section ul li ul li:nth-child(5){
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        background-color: #00933b;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 30px;
+        font-size: .8em;
+        color: #FFF;
+    }

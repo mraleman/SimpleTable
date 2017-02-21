@@ -1,0 +1,8 @@
+{
+	"autoload": {
+		"psr-4": {
+			"Simpletable\\": "app/Simpletable"
+		},
+		"files": [ "configure.php" ]
+	}
+}
