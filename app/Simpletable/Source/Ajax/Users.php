@@ -5,7 +5,7 @@
  * the user data or update the user depending on the method requested.
  */
 header('Content-Type: application/json');
-require_once '..\..\..\init.php';
+require_once '../../../init.php';
 
 $u = new UserModel;
 
